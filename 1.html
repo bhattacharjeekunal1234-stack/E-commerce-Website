@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Zone</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li class="logo">ShopZone</li>
+            <li>Locations</li>
+
+            <li class="search-box">
+                <input type="text" placeholder="🔎 Search products...">
+            </li>
+
+            <li>Sign In</li>
+            <li>Returns & Orders</li>
+            <li>Cart</li>
+        </ul>
+    </nav>
+
+    <!-- Menu Bar -->
+    <nav class="menu-bar">
+        <ul>
+            <li>☰ All</li>
+            <li>Today's Deals</li>
+            <li>Electronics</li>
+            <li>Fashion</li>
+            <li>Home & Kitchen</li>
+            <li>Books</li>
+            <li>Sports</li>
+            <li>Mobiles</li>
+            <li>Amazon Prime</li>
+        </ul>
+    </nav>
+
+    <!-- Advertisement Banner -->
+    <section class="hero-banner">
+
+        <div class="banner-content">
+            <h1>Welcome to ShopZone</h1>
+            <p>
+                Discover amazing deals on Electronics,
+                Fashion, Books and more!
+            </p>
+        </div>
+
+        <!-- Categories -->
+        <div class="categories">
+            <h2>Shop by Categories</h2>
+
+            <div class="category-container">
+                <a href="#electronics" id="electronics" class="card">
+                    <span class="card-icon">💻</span>
+                    <span class="card-label">Electronics</span>
+                </a>
+                <a href="#fashion" id="fashion" class="card">
+                    <span class="card-icon">👗</span>
+                    <span class="card-label">Fashion</span>
+                </a>
+                <a href="#books" id="books" class="card">
+                    <span class="card-icon">📚</span>
+                    <span class="card-label">Books</span>
+                </a>
+                <a href="#sports" id="sports" class="card">
+                    <span class="card-icon">🏸</span>
+                    <span class="card-label">Sports</span>
+                </a>
+                <a href="#mobiles" id="mobiles" class="card">
+                    <span class="card-icon">📱</span>
+                    <span class="card-label">Mobiles</span>
+                </a>
+                <a href="#home-kitchen" id="home-kitchen" class="card">
+                    <span class="card-icon">🍳</span>
+                    <span class="card-label">Home & Kitchen</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Selected category section (shows only when a card's hash is active) -->
+    <section class="category-detail" id="electronics-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Electronics</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">💻</div>
+                    <p class="product-name">Slim Laptop 14"</p>
+                    <p class="product-price">₹54,990</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🎧</div>
+                    <p class="product-name">Wireless Headphones</p>
+                    <p class="product-price">₹2,499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">⌚</div>
+                    <p class="product-name">Smart Watch Pro</p>
+                    <p class="product-price">₹3,999</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📷</div>
+                    <p class="product-name">Mirrorless Camera</p>
+                    <p class="product-price">₹42,500</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🖱️</div>
+                    <p class="product-name">Wireless Mouse</p>
+                    <p class="product-price">₹799</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🔌</div>
+                    <p class="product-name">Fast Charger 65W</p>
+                    <p class="product-price">₹1,299</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-detail" id="fashion-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Fashion</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">👕</div>
+                    <p class="product-name">Cotton T-Shirt</p>
+                    <p class="product-price">₹499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">👗</div>
+                    <p class="product-name">Summer Dress</p>
+                    <p class="product-price">₹1,299</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">👖</div>
+                    <p class="product-name">Slim Fit Jeans</p>
+                    <p class="product-price">₹1,599</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">👟</div>
+                    <p class="product-name">Running Shoes</p>
+                    <p class="product-price">₹2,199</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧥</div>
+                    <p class="product-name">Denim Jacket</p>
+                    <p class="product-price">₹2,499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧢</div>
+                    <p class="product-name">Baseball Cap</p>
+                    <p class="product-price">₹349</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-detail" id="books-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Books</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">📖</div>
+                    <p class="product-name">Best-Selling Novel</p>
+                    <p class="product-price">₹299</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📗</div>
+                    <p class="product-name">Self-Help Guide</p>
+                    <p class="product-price">₹349</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📘</div>
+                    <p class="product-name">Academic Textbook</p>
+                    <p class="product-price">₹599</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📕</div>
+                    <p class="product-name">Mystery Thriller</p>
+                    <p class="product-price">₹279</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📙</div>
+                    <p class="product-name">Children's Storybook</p>
+                    <p class="product-price">₹199</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📔</div>
+                    <p class="product-name">Notebook Set</p>
+                    <p class="product-price">₹149</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-detail" id="sports-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Sports</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">🏸</div>
+                    <p class="product-name">Badminton Racket</p>
+                    <p class="product-price">₹899</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">⚽</div>
+                    <p class="product-name">Football</p>
+                    <p class="product-price">₹699</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🏏</div>
+                    <p class="product-name">Cricket Bat</p>
+                    <p class="product-price">₹1,499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🏀</div>
+                    <p class="product-name">Basketball</p>
+                    <p class="product-price">₹799</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧘</div>
+                    <p class="product-name">Yoga Mat</p>
+                    <p class="product-price">₹599</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🏋️</div>
+                    <p class="product-name">Dumbbell Set</p>
+                    <p class="product-price">₹1,899</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-detail" id="mobiles-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Mobiles</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">📱</div>
+                    <p class="product-name">Smartphone 128GB</p>
+                    <p class="product-price">₹17,999</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">📲</div>
+                    <p class="product-name">Smartphone 256GB</p>
+                    <p class="product-price">₹24,999</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🔋</div>
+                    <p class="product-name">Power Bank 20000mAh</p>
+                    <p class="product-price">₹1,499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🎧</div>
+                    <p class="product-name">Earbuds</p>
+                    <p class="product-price">₹1,999</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🛡️</div>
+                    <p class="product-name">Phone Case</p>
+                    <p class="product-price">₹299</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🔌</div>
+                    <p class="product-name">Type-C Cable</p>
+                    <p class="product-price">₹249</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-detail" id="home-kitchen-detail">
+        <div class="detail-inner">
+            <div class="detail-header">
+                <h3>Home & Kitchen</h3>
+                <a href="#" class="close-detail">Close ✕</a>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">🍳</div>
+                    <p class="product-name">Non-Stick Frying Pan</p>
+                    <p class="product-price">₹899</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🫖</div>
+                    <p class="product-name">Electric Kettle</p>
+                    <p class="product-price">₹1,099</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🛋️</div>
+                    <p class="product-name">Sofa Cushion Set</p>
+                    <p class="product-price">₹1,499</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🪔</div>
+                    <p class="product-name">Table Lamp</p>
+                    <p class="product-price">₹699</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧴</div>
+                    <p class="product-name">Storage Bottle Set</p>
+                    <p class="product-price">₹399</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧹</div>
+                    <p class="product-name">Cleaning Kit</p>
+                    <p class="product-price">₹549</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Sell on ShopZone</a>
+            <a href="#">Help & Support</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+
+        <p>
+            © 2026 ShopZone India Pvt. Ltd.
+            All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
